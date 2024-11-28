@@ -1,0 +1,96 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadioPulse - Radio and Podcasts Anywhere!</title>
+    <!-- links ao Bootstrap CSS e ao CSS local -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles3.css" rel="stylesheet">
+</head>
+<body>
+    <!-- barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html"><img src="logo.png" style="width:40px"> RadioPulse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- links no cabeçalho -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="library.html">Library</a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link active" href="registo.html">Registo </a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link active" href="login.html">Login </a>
+                    </li>
+                <li>
+                <!-- Search Bar -->
+                <form class="d-flex" role="search" style="margin-left: 102%; width: 400px;">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+</li>
+<li>
+    
+</li>
+            </div>
+        </div>
+    </nav>
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class="col-md-4">
+            <div class="card h-100">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Music">
+                <div class="card-body">
+                    <h5 class="card-title">NOME PODCAST</h5>
+                    <p class="card-text">DESCRIÇAO PODCAST</p>
+					 <p class="card-text">APRESENTADORES</p>
+					<p class="card-text">Este Podcast tem "x" Episodios.</p>
+					  
+					   <!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação de Podcast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="rating-container">
+        <h2>Rating Medio</h2>
+        <div class="rating-stars" id="ratingStars">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+        </div>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+                    <a href="#" class="btn btn-primary">GUARDAR BIBLIOTECA</a>
+                </div>
+            </div>
+        </div>
